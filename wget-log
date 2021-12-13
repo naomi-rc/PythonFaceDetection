@@ -1,0 +1,11 @@
+--2021-12-13 21:37:19--  https://media.istockphoto.com/photos/outdoor-portrait-of-multigeneration-family-in-garden-at-home-against-picture-id1156466210?k=20
+Resolving media.istockphoto.com (media.istockphoto.com)... 18.65.229.82, 18.65.229.49, 18.65.229.83, ...
+Connecting to media.istockphoto.com (media.istockphoto.com)|18.65.229.82|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 376044 (367K) [image/jpeg]
+Saving to: ‘images/image3.jpg’
+
+images/image3.jpg                                    0%[                                                                                                              ]       0  --.-KB/s               images/image3.jpg                                  100%[=============================================================================================================>] 367.23K  --.-KB/s    in 0.07s   
+
+2021-12-13 21:37:19 (5.49 MB/s) - ‘images/image3.jpg’ saved [376044/376044]
+
