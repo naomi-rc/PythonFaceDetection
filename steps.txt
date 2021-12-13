@@ -1,0 +1,9 @@
+Follow tutorial at https://realpython.com/lessons/using-viola-jones-framework/
+
+Install anaconda
+    Follow tutorial at https://www.youtube.com/watch?v=jBsvTxx3Gv0&ab_channel=Ti-HonNguyen to install miniconda
+Run `conda create --name face-detection python=3.7`
+Run `conda activate face-detection`
+Run `conda install scikit-learn`
+Run `conda install -c conda-forge scikit-image`
+Run `conda install -c menpo opencv3`
