@@ -1,13 +1,18 @@
 Follow tutorial at https://realpython.com/lessons/using-viola-jones-framework/
 
-Install anaconda
-    Follow tutorial at https://www.youtube.com/watch?v=jBsvTxx3Gv0&ab_channel=Ti-HonNguyen to install miniconda
+Install anaconda (Follow tutorial at https://www.youtube.com/watch?v=jBsvTxx3Gv0&ab_channel=Ti-HonNguyen to install miniconda)
+Run `bash get.sh`
+Run `bash Miniconda3-latest-Linux-x86_64.sh` and change install location to /workspace/PythonFaceDetection/miniconda3
+
+Fixes to lib modules not found : https://stackoverflow.com/questions/55313610/importerror-libgl-so-1-cannot-open-shared-object-file-no-such-file-or-directo
+Run `sudo apt-get-update`
+Run `sudo apt-get install ffmpeg libsm6 libxext6  -y`
+
 Run `conda create --name face-detection python=3.7`
 Run `conda activate face-detection`
 Run `conda install scikit-learn`
 Run `conda install -c conda-forge scikit-image`
-Run `conda install -c menpo opencv3`
-
+Run `conda install -c menpo opencv3` # use `conda install -c conda-forge opencv=4.1.0` instead
 
 
 Get images with

@@ -1,6 +1,6 @@
 import cv2 as cv
 
-file_name = "image4.jpg"
+file_name = "image6.jpg"
 original_image = cv.imread(f"images/{file_name}")
 grayscale_image = cv.cvtColor(original_image, cv.COLOR_BGR2GRAY)
 face_cascade = cv.CascadeClassifier("haarcascade_frontalface_alt.xml")
