@@ -1,4 +1,4 @@
-# Tradition Face Detection With Python 
+# Traditional Face Detection With Python 
 ## Tutorial from Real Python 
 
 
